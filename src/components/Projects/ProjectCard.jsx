@@ -48,6 +48,28 @@ export default function ProjectCard({ project, onSelect }) {
         <p className="project-card__desc">
           {project.shortDesc}
         </p>
+        {project.size === 'large' && project.features?.length > 0 && (
+  <div className="project-card__highlights">
+    <p className="project-card__highlights-title">
+      What EduMate Offers
+    </p>
+
+    <div className="project-card__highlights-grid">
+      {project.features.map((feature, index) => (
+        <div
+          className="project-card__highlight"
+          key={index}
+        >
+          <span className="project-card__highlight-icon">
+            ✓
+          </span>
+
+          <span>{feature}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
 
         {project.achievement && (
           <div className="project-card__achievement">
@@ -88,13 +110,6 @@ export default function ProjectCard({ project, onSelect }) {
    ========================================================= */
 
 function ProjectVisual({ project }) {
-  /*
-   * If an image is provided in projects.js,
-   * display that image.
-   *
-   * Example:
-   * image: '/images/projects/edumate.png'
-   */
   if (project.image) {
     return (
       <img
@@ -109,9 +124,6 @@ function ProjectVisual({ project }) {
     );
   }
 
-  /*
-   * Existing SVG visuals are kept as fallback.
-   */
   const visuals = {
     edumate: <EduMateVisual />,
     scriptforge: <ScriptForgeVisual />,
