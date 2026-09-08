@@ -4,10 +4,14 @@ export const projects = [
     number: '01',
     title: 'EduMate',
     category: 'College Management Platform',
-    shortDesc: 'A college management application connecting students, teachers, and administrators through dedicated dashboards.',
-    description: 'EduMate is a comprehensive college management platform designed to bridge the gap between students, teachers, and administrators. It features dedicated dashboards for each user role, enabling seamless communication and management of academic activities.',
-    problem: 'Managing college operations across multiple roles — students, teachers, and administrators — with fragmented tools and lack of real-time information access.',
-    solution: 'A unified Flutter-based mobile application with role-based dashboards offering attendance management, notices, academic information, and profile management in one place.',
+    shortDesc:
+      'A college management application connecting students, teachers, and administrators through dedicated dashboards.',
+    description:
+      'EduMate is a comprehensive college management platform designed to bridge the gap between students, teachers, and administrators. It features dedicated dashboards for each user role, enabling seamless communication and management of academic activities.',
+    problem:
+      'Managing college operations across multiple roles — students, teachers, and administrators — with fragmented tools and lack of real-time information access.',
+    solution:
+      'A unified Flutter-based mobile application with role-based dashboards offering attendance management, notices, academic information, and profile management in one place.',
     features: [
       'Role-based dashboards (Student, Teacher, Admin)',
       'Attendance management and tracking',
@@ -23,16 +27,23 @@ export const projects = [
     size: 'large',
     gradient: 'linear-gradient(135deg, #1a2744 0%, #0f4c3a 100%)',
     accentColor: '#2DD4BF',
+
+    image: '/images/projects/edumate.png',
   },
+
   {
     id: 'scriptforge',
     number: '02',
     title: 'ScriptForge AI',
     category: 'AI Application',
-    shortDesc: 'An AI-powered application for generating game scripts using modern web technologies and generative AI.',
-    description: 'ScriptForge AI is a creative tool that leverages generative AI to help users craft detailed game scripts. Built with a modern React frontend and Node.js backend, it integrates AI APIs to produce contextual and creative script content.',
-    problem: 'Game developers and writers spend significant time creating detailed scripts and narratives for games.',
-    solution: 'An AI-powered platform that generates structured, creative game scripts on demand using generative AI models, with a responsive web interface for easy access.',
+    shortDesc:
+      'An AI-powered application for generating game scripts using modern web technologies and generative AI.',
+    description:
+      'ScriptForge AI is a creative tool that leverages generative AI to help users craft detailed game scripts. Built with a modern React frontend and Node.js backend, it integrates AI APIs to produce contextual and creative script content.',
+    problem:
+      'Game developers and writers spend significant time creating detailed scripts and narratives for games.',
+    solution:
+      'An AI-powered platform that generates structured, creative game scripts on demand using generative AI models, with a responsive web interface for easy access.',
     features: [
       'AI-powered game script generation',
       'Generative AI integration',
@@ -47,16 +58,23 @@ export const projects = [
     size: 'medium',
     gradient: 'linear-gradient(135deg, #1a1040 0%, #2a1060 100%)',
     accentColor: '#60A5FA',
+
+    image: '/images/projects/scriptforge-ai.png',
   },
+
   {
     id: 'agreewise',
     number: '03',
     title: 'AgreeWise',
     category: 'AI + Full-Stack',
-    shortDesc: 'An AI-powered platform that helps users understand agreements, identify risks, and make informed decisions.',
-    description: 'AgreeWise is an AI-driven agreement analysis platform that simplifies legal documents for everyday users. It identifies key clauses, privacy considerations, and potential risks before a user accepts any agreement.',
-    problem: 'Most people accept agreements, terms of service, and contracts without fully understanding the implications, leading to unintended data sharing or unfavorable terms.',
-    solution: 'An AI-powered platform that analyzes agreement text and highlights important points, privacy considerations, safety flags, and potential concerns in plain language.',
+    shortDesc:
+      'An AI-powered platform that helps users understand agreements, identify risks, and make informed decisions.',
+    description:
+      'AgreeWise is an AI-driven agreement analysis platform that simplifies legal documents for everyday users. It identifies key clauses, privacy considerations, and potential risks before a user accepts any agreement.',
+    problem:
+      'Most people accept agreements, terms of service, and contracts without fully understanding the implications, leading to unintended data sharing or unfavorable terms.',
+    solution:
+      'An AI-powered platform that analyzes agreement text and highlights important points, privacy considerations, safety flags, and potential concerns in plain language.',
     features: [
       'AI-powered agreement analysis',
       'Privacy and safety risk identification',
@@ -71,16 +89,23 @@ export const projects = [
     size: 'medium',
     gradient: 'linear-gradient(135deg, #0f2030 0%, #1a3040 100%)',
     accentColor: '#2DD4BF',
+
+    image: '/images/projects/agreewise.png',
   },
+
   {
     id: 'interviewx',
     number: '04',
     title: 'InterviewX',
     category: 'Evaluation Platform',
-    shortDesc: 'A viva and evaluation platform for structured assessments and controlled testing environments.',
-    description: 'InterviewX is a structured evaluation platform designed for academic and technical viva assessments. It provides a controlled testing environment for interactive code-based interviews.',
-    problem: 'Traditional viva examinations lack standardization and real-time evaluation capabilities for coding assessments.',
-    solution: 'A web-based platform that administers structured technical interviews with real-time code evaluation and performance tracking.',
+    shortDesc:
+      'A viva and evaluation platform for structured assessments and controlled testing environments.',
+    description:
+      'InterviewX is a structured evaluation platform designed for academic and technical viva assessments. It provides a controlled testing environment for interactive code-based interviews.',
+    problem:
+      'Traditional viva examinations lack standardization and real-time evaluation capabilities for coding assessments.',
+    solution:
+      'A web-based platform that administers structured technical interviews with real-time code evaluation and performance tracking.',
     features: [
       'Structured interview sessions',
       'Code evaluation environment',
@@ -95,16 +120,23 @@ export const projects = [
     size: 'small',
     gradient: 'linear-gradient(135deg, #1a1010 0%, #2a1a10 100%)',
     accentColor: '#60A5FA',
+
+    image: '/images/projects/interviewx.png',
   },
+
   {
     id: 'healthrisk',
     number: '05',
     title: 'Health Risk Prediction',
     category: 'AI / ML',
-    shortDesc: 'An AI/ML-based health-risk prediction model that won 1st Prize at the Forge Inspire Hackathon.',
-    description: 'A machine learning project that predicts potential health risks based on user-provided data. The model was recognized at a college-level hackathon for its practical application of AI in health awareness.',
-    problem: 'Early identification of health risks can prevent serious conditions, but access to quick preliminary health assessments is limited.',
-    solution: 'An ML-powered prediction model that analyzes health indicators and provides risk assessments to raise awareness and encourage timely medical consultation.',
+    shortDesc:
+      'An AI/ML-based health-risk prediction model that won 1st Prize at the Forge Inspire Hackathon.',
+    description:
+      'A machine learning project that predicts potential health risks based on user-provided data. The model was recognized at a college-level hackathon for its practical application of AI in health awareness.',
+    problem:
+      'Early identification of health risks can prevent serious conditions, but access to quick preliminary health assessments is limited.',
+    solution:
+      'An ML-powered prediction model that analyzes health indicators and provides risk assessments to raise awareness and encourage timely medical consultation.',
     features: [
       'ML-based health risk prediction',
       'Data-driven analysis',
@@ -119,16 +151,23 @@ export const projects = [
     size: 'small',
     gradient: 'linear-gradient(135deg, #0a2010 0%, #102a1a 100%)',
     accentColor: '#2DD4BF',
+
+    image: '/images/projects/health-risk-prediction.png',
   },
+
   {
     id: 'jarvis',
     number: '06',
     title: 'Jarvis',
     category: 'Python · AI',
-    shortDesc: 'A Python-based voice assistant combining speech recognition, text-to-speech, and automation.',
-    description: 'Jarvis is a Python-based personal voice assistant that responds to voice commands. It integrates speech recognition and text-to-speech to create a conversational AI experience with practical automation capabilities.',
-    problem: 'Hands-free interaction with a computer for common tasks requires accessible voice assistant solutions.',
-    solution: 'A lightweight Python voice assistant with speech recognition and text-to-speech that can perform command-based tasks.',
+    shortDesc:
+      'A Python-based voice assistant combining speech recognition, text-to-speech, and automation.',
+    description:
+      'Jarvis is a Python-based personal voice assistant that responds to voice commands. It integrates speech recognition and text-to-speech to create a conversational AI experience with practical automation capabilities.',
+    problem:
+      'Hands-free interaction with a computer for common tasks requires accessible voice assistant solutions.',
+    solution:
+      'A lightweight Python voice assistant with speech recognition and text-to-speech that can perform command-based tasks.',
     features: [
       'Speech recognition',
       'Text-to-speech responses',
@@ -142,14 +181,19 @@ export const projects = [
     size: 'small',
     gradient: 'linear-gradient(135deg, #0d1520 0%, #1a2535 100%)',
     accentColor: '#60A5FA',
+
+    image: '/images/projects/jarvis.png',
   },
+
   {
     id: 'newsaggregator',
     number: '07',
     title: 'News Aggregator',
     category: 'Python · Web',
-    shortDesc: 'A Python-based news aggregation application collecting current news through RSS feeds.',
-    description: 'A Python application that aggregates news from multiple RSS feeds and presents them in a unified, readable format. Built to practice web data collection and content aggregation techniques.',
+    shortDesc:
+      'A Python-based news aggregation application collecting current news through RSS feeds.',
+    description:
+      'A Python application that aggregates news from multiple RSS feeds and presents them in a unified, readable format. Built to practice web data collection and content aggregation techniques.',
     features: [
       'RSS feed aggregation',
       'Multi-source news collection',
@@ -163,14 +207,19 @@ export const projects = [
     size: 'small',
     gradient: 'linear-gradient(135deg, #0f0f1a 0%, #1a1a2a 100%)',
     accentColor: '#2DD4BF',
+
+    image: '/images/projects/news-aggregator.png',
   },
+
   {
     id: 'selfdriving',
     number: '08',
     title: 'Self Driving Car',
     category: 'AI / ML · Simulation',
-    shortDesc: 'A self-driving car simulation project exploring neural networks and autonomous navigation concepts.',
-    description: 'A simulation-based self-driving car project that explores neural network-driven autonomous navigation. The project experiments with sensor-based decision-making and path-following algorithms.',
+    shortDesc:
+      'A self-driving car simulation project exploring neural networks and autonomous navigation concepts.',
+    description:
+      'A simulation-based self-driving car project that explores neural network-driven autonomous navigation. The project experiments with sensor-based decision-making and path-following algorithms.',
     features: [
       'Neural network-based navigation',
       'Sensor simulation',
@@ -184,5 +233,7 @@ export const projects = [
     size: 'small',
     gradient: 'linear-gradient(135deg, #1a0a10 0%, #2a1020 100%)',
     accentColor: '#60A5FA',
+
+    image: '/images/projects/self-driving-car.png',
   },
 ];
