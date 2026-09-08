@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Download, Eye } from 'lucide-react';
 import './Hero.css';
 
-const RESUME_EXISTS = false; // Set to true when resume PDF is added
+const RESUME_EXISTS = true; // Set to true when resume PDF is added
 
 const containerVariants = {
   hidden: {},
@@ -167,7 +167,7 @@ export default function Hero() {
             <div className="hero__profile-container">
               {/* Replace /images/profile.png with the real photo - no code changes needed */}
               <img
-                src="/images/profile.png"
+                src="/images/rohan.jpg"
                 alt="Rohan Mondal"
                 className="hero__profile-img"
                 onError={(e) => {
