@@ -39,11 +39,11 @@ export const experience = [
   {
     id: 'health-hack',
     type: 'achievement',
-    title: 'Health Risk Prediction — Forge Inspire Hackathon',
-    organization: 'Forge Inspire',
+    title: 'Health Risk Prediction — Hackathon',
+    organization: 'Scient institution of technology',
     period: '2026',
     description: 'Developed an AI/ML-based health risk prediction model. Awarded 1st Prize at the Forge Inspire Hackathon.',
-    tags: ['Python', 'Machine Learning', '🏆 1st Prize'],
+    tags: ['JavaScript', 'CSS', '🏆 1st Prize'],
     achievement: true,
   },
   {
